@@ -264,7 +264,7 @@ a {
 .img1 {
  display: block;
  width: calc(50% - 6px);
- margin-bottom: 6px;
+ margin-bottom: 12px;
 }
 
 .gallery-right > .img1:nth-child(1), .gallery-left > .img1:nth-child(3) {
@@ -302,3 +302,60 @@ a {
 a.button8:hover { background: rgba(255,255,255,.2); }
 a.button8:active { background: white; }
 
+.btn {
+    
+    margin-right: 16px;
+    padding: 10px 33px;
+    font-family: "PT Sans Narrow", "Arial", sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: #302f2f 3px solid;
+    height: 45px;
+    
+}
+
+
+
+.gallery2 {
+  display: flex;
+  margin-top: 80px;
+  justify-content: space-between;
+  padding: 5px;
+}
+
+.gallery-title {
+  
+  font-size: 60px;
+  line-height: 55px;
+  font-weight: 100;
+  font-family: "PT Sans Narrow", "Arial", sans-serif;
+  color: #8a8a8a;
+}
+
+.left-title {
+  height: 530px;
+  width: 660px;
+  background-image: url(../img/lefttitle.png);
+  display: flex;
+  margin-right: 33px;
+}
+
+.center-title {
+  background-image: url(../img/centertitle.png);
+  display: flex;
+}
+
+.right-title {
+  background-image: url(../img/photo\ silhouette.png);
+  display: flex;
+  margin-left: 33px;
+}
+
+.title-h2 {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 100;
+  font-family: "PT Sans Narrow", "Arial", sans-serif;
+  color: #5c5c5c;
+}
