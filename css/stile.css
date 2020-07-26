@@ -285,7 +285,7 @@ a {
     width: 150px;
     margin-left: auto;
 }
-
+/* кнопка-мужская коллекция */
 .button7 {
   width: 300px;
   position: absolute;
@@ -299,20 +299,37 @@ a {
   border-radius: 1px;
   text-align: center;
 } 
+
+.button7:hover {
+  background: #00c8c8; 
+  color: #fff;
+  border: #00c8c8 2px solid;
+}
+
+
 a.button8:hover { background: rgba(255,255,255,.2); }
 a.button8:active { background: white; }
 
 .btn {
-    
-    margin-right: 16px;
+    /* кнопки */
+    margin-left: 290px;
     padding: 10px 33px;
+    font-weight: 400;
+    font-size: 25px;
     font-family: "PT Sans Narrow", "Arial", sans-serif;
     text-align: center;
     text-transform: uppercase;
     cursor: pointer;
-    border: #302f2f 3px solid;
+    color: #686868;
+    border: #686868 2px solid;
     height: 45px;
-    
+    }
+/* изменение цвета кнопки */
+.btn:hover {
+  background: #00c8c8; 
+  color: #fff;
+  border: #00c8c8 2px solid;
+
 }
 
 
@@ -325,37 +342,160 @@ a.button8:active { background: white; }
 }
 
 .gallery-title {
-  
+  text-align: right;
   font-size: 60px;
   line-height: 55px;
   font-weight: 100;
   font-family: "PT Sans Narrow", "Arial", sans-serif;
-  color: #8a8a8a;
+  color: #686868;
+  margin-right: 40px;
 }
 
 .left-title {
   height: 530px;
   width: 660px;
   background-image: url(../img/lefttitle.png);
-  display: flex;
+  /* display: flex; */
   margin-right: 33px;
 }
 
 .center-title {
+  height: 530px;
+  width: 660px;
   background-image: url(../img/centertitle.png);
-  display: flex;
+  /* display: flex; */
 }
 
 .right-title {
+  height: 530px;
+  width: 660px;
   background-image: url(../img/photo\ silhouette.png);
-  display: flex;
+  /* display: flex; */
   margin-left: 33px;
 }
 
 .title-h2 {
+  text-align: right;
   font-size: 14px;
   line-height: 24px;
   font-weight: 100;
   font-family: "PT Sans Narrow", "Arial", sans-serif;
   color: #5c5c5c;
+  margin-left: 238px;
+  margin-bottom: 35px;
+  padding-right: 40px;
+} 
+
+.footer {
+    display: flex;
+
+    justify-content: center;
+    background: #f8f8f8;
+    width: 100%;
+    margin-top: 40px;
+
+}
+
+.footercontainer {
+  font-family: "PT Sans Narrow", "Arial", sans-serif;
+  text-align: left;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 100;
+  display: flex;
+  justify-content: space-between;
+  background: #f8f8f8;
+  width: 1170px;
+  height: 590px;
+  margin-top: 68px;
+}
+
+.foterbutton {    
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  height: 200px;
+  width: 1170px;
+  /* border: #ff0000 1px solid; */
+  margin-top: 335px;
+}
+
+.footerbtnleft {
+      /* display: flex; */
+      width: 575px;
+      padding: 59px;
+      font-size: 32px;
+      font-weight: 700;
+      line-height: 40px;
+      font-family: "PT Sans Narrow", "Arial", sans-serif;
+      text-align: center;
+      text-transform: uppercase;
+      cursor: pointer;
+      color: #686868;
+      border: #686868 2px solid;
+}
+
+.footerbtnleft:hover {
+    background: #686868; 
+    color: #fff;
+    border: #686868 2px solid;
+}
+
+.footerbtnright {
+  /* display: inline-table; */
+    width: 575px;
+    padding: 63px;
+    cursor: pointer;
+    color: #00c8c8;
+    /* border: #00c8c8 2px solid; */
+    background-color: #00c8c8;
+  
+}
+
+/* .footerbtnright:hover {
+  background: #00c8c8; 
+  color: #fff;
+  border: #00c8c8 2px solid;
+} */
+
+
+
+.box {
+  text-align: center;
+}
+
+.box ul {
+  list-style: none;
+  padding: 0;
+  /* margin-top: 60px; */
+}
+
+.box ul li {
+  display: inline-block;
+    overflow: hidden;
+    width: 40px;
+    height: 40px;
+    background: #00c8c8;
+    /* border: solid 4px #00c8c8; */
+    position: relative;
+    transition: all 0.4s;
+}
+
+.icon {
+  margin-top: 15%;
+  /* цвет иконок */
+  color: #fff;
+  font-size: 1.7em;
+  transition: all 0.2s cubic-bezier(0.075, 0.82, 0.165, 1); */
+}
+
+.box ul li:hover {
+  border: solid 4px #fff;
+  transition: all 0.4s;
+  cursor: pointer;
+}
+
+.box ul li:hover .icon {
+    font-size: 1.5em;
+    color: #fff;
 }
