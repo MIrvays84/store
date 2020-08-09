@@ -274,7 +274,7 @@ a {
 .gallery-img  {
   position: relative;
   /* display: block; */
- width: 100%;
+  width: 100%;
  /* margin-bottom: 12px; */
 }
 
@@ -288,11 +288,18 @@ a {
   text-align: center;
   font-family: "PT Sans Narrow", "Arial", sans-serif;
   display: none;
-  background-color: #fff;
+  background-color: #CDD;
   width: 100%;
+}
 
- 
+.fab {
+  margin-bottom: 14px;
+  cursor: pointer;
+}
 
+.icon-book {
+  display: inline;
+  justify-content: space-between;
 }
 
 .gallery-img:hover  .gallery-info {
@@ -523,7 +530,7 @@ a.button8:active { background: white; }
   /* цвет иконок */
   color: #fff;
   font-size: 1.7em;
-  transition: all 0.2s cubic-bezier(0.075, 0.82, 0.165, 1); */
+  transition: all 0.2s cubic-bezier(0.075, 0.82, 0.165, 1); 
 }
 
 .box ul li:hover {
